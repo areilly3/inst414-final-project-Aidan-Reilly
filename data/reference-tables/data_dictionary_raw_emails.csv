@@ -1,0 +1,8 @@
+﻿attribute_name,description,data_type,example_vaue,unit
+sender,Account sending an email,String,sender@example.com,Characters
+receiver,Account receiving an email,String,receiver@example.com,Characters
+date,The date the email was sent,Date Time,"Mon, 26 Apr 1993 12:32:50 -0400",UTC
+subject,The subject of an email,String,Re: Urgent email,Characters
+body,Text of an email,String,This is an urgent email!!!,Characters
+label,Indicates if an email is a pishing email,Integer,0,Binary value
+urls,Indicates if an email contains a URL,Integer,1,Binary value
