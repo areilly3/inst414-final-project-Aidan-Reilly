@@ -1,0 +1,4 @@
+﻿attribute_name,description,data_type,example_vaue,unit
+subject,Subject of an email,String,Urgent: Reply now,Characters
+body,"Body of an email, the actual text",String,This is an email. ,Characters
+label,Whether or not an email is phishing,Int,0,Binary
