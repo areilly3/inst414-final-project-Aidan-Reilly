@@ -1,0 +1,42 @@
+﻿attribute_name,description,data_type,example_vaue,unit
+Type,Whether or not an email is phishing,int,0,Binary
+url_length,Length of url,int,20,Digits
+number_of_dots_in_url,Number of dots in url,int,34,Digits
+having_repeated_digits_in_url,Whether or not email has repeated digits in url,int,1,Binary
+number_of_digits_in_url,Number of digits in url,int,11,Digits
+number_of_special_char_in_url,Number of special characters in url,int,22,Digits
+number_of_hyphens_in_url,Number of hyphens in url,int ,7,Digits
+number_of_underline_in_url,Number of underlines in url,int,1,Digits
+number_of_slash_in_url,Number of slashes in url,int ,2,Digits
+number_of_questionmark_in_url,Number of questionmarks in url,int ,3,Digits
+number_of_equal_in_url,Number of equal signs in url,int ,4,Digits
+number_of_at_in_url,Number of @ symbols in url,int ,5,Digits
+number_of_dollar_in_url,Number of $ signs in url,int ,6,Digits
+number_of_exclamation_in_url,Number of !'s in url,int ,7,Digits
+number_of_hashtag_in_url,Number of #'s in url,int ,8,Digits
+number_of_percent_in_url,Number of %'s in url,int ,9,Digits
+domain_length,Length of domain,int,10,Digits
+number_of_dots_in_domain,Number of hyphens in url,int ,7,Digits
+number_of_hyphens_in_domain,Number of hyphens in url,int ,7,Digits
+having_special_characters_in_domain,Whether or not special characters are in domain,int,0,Binary
+having_digits_in_domain,Whether or not digits are in domain,int,1,Binary
+number_of_digits_in_domain,Number of hyphens in url,int ,7,Digits
+having_repeated_digits_in_domain,Whether or not repeated digits are in domain,int,1,Binary
+number_of_subdomains,Number of hyphens in url,int ,7,Digits
+having_dot_in_subdomain,Whether or not dots are in domain,int,1,Binary
+having_hyphen_in_subdomain,Whether or not hyphens are in domain,int,1,Binary
+average_subdomain_length,Average length of subdomain,int,33,Digits
+average_number_of_dots_in_subdomain,Average number of dots in subdomain,int,12,Digits
+average_number_of_hyphens_in_subdomain,Average number of special characters in subdomain,int,11,Digits
+having_special_characters_in_subdomain,Whether or not subdomain has special characters,int,0,Binary
+number_of_special_characters_in_subdomain,Number of special characters in url,int ,12,Digits
+having_digits_in_subdomain,Whether or not subdomain has digits,int,1,Binary
+number_of_digits_in_subdomain,Number of digits in url,int ,7,Digits
+having_repeated_digits_in_subdomain,Whether or not subdomain has repeated digits,int,1,Binary
+having_path,Whether or not there is a path,int,0,Binary
+path_length,Length of path,int,40,Digits
+having_query,Whether or not email contains a query ,int,1,Binary
+having_fragment,Whether or not email contains a fragment ,int,0,Binary
+having_anchor,Whether or not email contains an anchor,int,1,Binary
+entropy_of_url,Randomness of url,int ,4.2,Digits
+entropy_of_domain,Randomness of domain,int,5.1,Digits
